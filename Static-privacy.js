@@ -33,3 +33,11 @@ class Class {
 }
 
 // or
+
+class Class {
+  static #bar = 42;
+
+  static get bar() {
+    return this.hasOwnProperty('bar') ? this.#bar : Class.#bar;
+  }
+}
