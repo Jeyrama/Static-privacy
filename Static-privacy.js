@@ -20,3 +20,6 @@ This should also work for any level of inheritance from Class, e.g. with:
 class Deepclass extends Subclass {}
 Deepclass.foo; // should return 42
 */
+
+
+// Solution
