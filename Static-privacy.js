@@ -31,3 +31,5 @@ class Class {
     return Class.#foo;
   }
 }
+
+// or
